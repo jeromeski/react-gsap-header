@@ -21,12 +21,12 @@ const HeaderGallery = () => {
 		<div className='header__gallery'>
 			<div className='hg__left'>
 				{leftHeaderItems.map((item) => (
-					<HeaderItem  {...item} />
+					<HeaderItem key={item.id} {...item} />
 				))}
 			</div>
 			<div className='hg__right'>
 				{rightHeaderItems.map((item) => (
-					<HeaderItem  {...item} />
+					<HeaderItem key={item.id}  {...item} />
 				))}
 			</div>
 		</div>

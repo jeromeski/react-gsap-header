@@ -1,10 +1,9 @@
 import React from 'react';
 
-const NavItem = (props) => {
-	console.log(props);
+const NavItem = ({ title }) => {
 	return (
-		<li key={props.id}>
-			<a href='#0'>{props.title}</a>
+		<li>
+			<a href='#0'>{title}</a>
 		</li>
 	);
 };
