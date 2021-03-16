@@ -1,17 +1,9 @@
 import React, { Fragment } from 'react';
 import NavItem from './NavItem';
+import { navItems } from '../../../constants';
+
 
 const Navigation = () => {
-
-  const navItems = [
-		{ id: 'cec7eea4', title: 'Our Values' },
-		{ id: 'cec7f0d4', title: 'Portfolio' },
-		{ id: 'cec7f1c4', title: 'Blog' },
-		{ id: 'cec7f296', title: 'How We Work' },
-		{ id: 'cec7f354', title: 'Contact' }
-	];
-
-
 	return (
 		<Fragment>
 			<div className='logo'>
